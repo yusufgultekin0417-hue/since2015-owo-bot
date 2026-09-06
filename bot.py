@@ -28,9 +28,13 @@ class Since2015Bot(commands.Bot):
         await setup_database()
 
         extensions = [
-            "economy",
-            "casino",
+    "economy",
+    "casino",
+    "shop"
         ]
+            
+            
+
 
         for extension in extensions:
             try:
